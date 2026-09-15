@@ -1,0 +1,108 @@
+export const categories = ['Preventive', 'Cosmetic', 'Restorative', 'Orthodontics', 'Emergency']
+
+export const services = [
+  {
+    id: 'checkup',
+    name: 'Comprehensive Checkup',
+    category: 'Preventive',
+    price: 89,
+    duration: '45 min',
+    summary: 'Full-mouth digital X-ray, 3D intraoral scan, and a hygienist clean.',
+    steps: [
+      'Digital X-ray and 3D intraoral scan to map your bite.',
+      'Hygienist clean and polish, plus a plaque risk review.',
+      'Dentist walkthrough of findings with your scan on-screen.',
+    ],
+  },
+  {
+    id: 'whitening',
+    name: 'Professional Whitening',
+    category: 'Cosmetic',
+    price: 249,
+    duration: '60 min',
+    summary: 'Clinical-grade whitening that lifts shade by up to eight levels in one visit.',
+    steps: [
+      'Shade mapping to set a realistic, natural target.',
+      'Gum barrier applied, then three guided whitening cycles.',
+      'Sensitivity gel and take-home touch-up kit.',
+    ],
+  },
+  {
+    id: 'veneers',
+    name: 'Porcelain Veneers',
+    category: 'Cosmetic',
+    price: 890,
+    duration: 'per tooth',
+    summary: 'Hand-layered porcelain shells designed from your 3D smile simulation.',
+    steps: [
+      'Digital smile design previewed on your own 3D scan.',
+      'Minimal-prep enamel shaping and precise impressions.',
+      'Custom veneers bonded and polished to match neighbouring teeth.',
+    ],
+  },
+  {
+    id: 'invisalign',
+    name: 'Invisalign Clear Aligners',
+    category: 'Orthodontics',
+    price: 3800,
+    duration: 'full program',
+    summary: 'A full straightening plan mapped from your intraoral scan, no metal brackets.',
+    steps: [
+      '3D scan builds a projected timeline of every tooth movement.',
+      'Aligner sets shipped in stages, changed every one to two weeks.',
+      'Progress scans every six weeks to keep the plan on track.',
+    ],
+  },
+  {
+    id: 'implants',
+    name: 'Dental Implants',
+    category: 'Restorative',
+    price: 2400,
+    duration: 'per implant',
+    summary: 'Titanium implant and custom crown placed with guided 3D precision.',
+    steps: [
+      'CBCT scan plans exact implant angle and depth.',
+      'Guided implant placement under local anaesthetic.',
+      'Custom crown fitted once the implant has fully integrated.',
+    ],
+  },
+  {
+    id: 'pediatric',
+    name: 'Pediatric Dentistry',
+    category: 'Preventive',
+    price: 79,
+    duration: '30 min',
+    summary: 'Gentle, low-anxiety visits designed around younger patients.',
+    steps: [
+      'A slow, narrated first look — no surprises, no rush.',
+      'Fluoride treatment and cavity risk screening.',
+      'A take-home care plan parents can actually follow.',
+    ],
+  },
+  {
+    id: 'root-canal',
+    name: 'Root Canal Therapy',
+    category: 'Restorative',
+    price: 950,
+    duration: '90 min',
+    summary: 'Microscope-guided root canal treatment to save a compromised tooth.',
+    steps: [
+      'Local anaesthetic and isolation of the affected tooth.',
+      'Microscope-guided cleaning and shaping of the root canal.',
+      'Sealing and a protective crown to restore full bite strength.',
+    ],
+  },
+  {
+    id: 'emergency',
+    name: 'Same-Day Emergency Care',
+    category: 'Emergency',
+    price: 120,
+    duration: 'walk-in',
+    summary: 'Priority same-day slots for pain, trauma, or a broken restoration.',
+    steps: [
+      'Call the helpline — we hold two emergency slots daily.',
+      'Rapid diagnostic scan to isolate the source of pain.',
+      'Immediate stabilisation, with a follow-up plan if needed.',
+    ],
+  },
+]
