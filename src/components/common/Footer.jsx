@@ -88,10 +88,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10 py-6">
-        <div className="container-aura flex flex-col items-center justify-between gap-3 text-xs text-porcelain-100/45 sm:flex-row">
+    <div className="border-t border-white/10 py-6">
+        <div className="container-aura flex justify-center text-xs text-porcelain-100/45">
           <p>© {new Date().getFullYear()} AURA DENTAL. All rights reserved.</p>
-          <p>Individual portfolio project — Week 2, Frontend Track.</p>
         </div>
       </div>
     </footer>
